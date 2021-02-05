@@ -1,39 +1,39 @@
-  source ~/.bash_profile
-  vi ~/.bash_profile
-  nvm ls
-  R/nvm.sh"  # This loads nvm
-  peuloui-MacBookPro:~ pro$
-  nvm install --lts
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-  peuloui-MacBookPro:~ pro$
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh
-  cd begin-react
-  yarn start
-  yarn --version
-  npm install --global yarn
-  yarn --version
-  yarn start
-  /Users/pro/opt/anaconda3/bin/jupyter_mac.command ; exit;
-  cd begin-react
-  yarn start
+# 디렉터리에 .git(local repository)를 설치 하지 않고, 파일과 폴더를 인지하지 않고 home(cd?) 상태에 설치했음
+  ll    : alias ll='ls -algs': 설치된 목록 보기인데, 저 algs가 정확히 뭐엿지..? ls와 비교해 봤을때, 좀 더 자세하게 출력되긴 하넹
+  ls    : 디렉토리(directory)에 있는 내용(디렉토리, 파일 등)을 확인
+  ls -algs    
+  mv .git backup_git    : 기존의 로컬 리파지토리를 삭제  
+  ll    : 잘 삭제 되었는지 확인
+  mkdir workspace   : 디렉토리 생성 ( 폴더 생성 ) >> 디렉터리 = 폴더 = 카탈로그
+  cd workspace/   : 폴더로 이동, 폴더일 때는 마지막에 / 사용
+  vi .bash_profile    : .bash_profile을 vi편집기로 실행하여 환경변수를 변경 >> 명령어를 명명하기 위해 사용하는 파일이 .bash_profile 
+  source .bash_profile    : 수정된 환경설정을 .bash_profile이 적용되도록 한다
   ll
-  ls
-  ls -algs
-  mv .git backup_git
+  cd -    : 이전 디렉터리로 이동 
+  ```cd /
+	루트 디렉토리(/)로 이동
+
+cd .
+	현재 디렉터리로 이동 
+
+cd ..
+	상위 디렉터리로 이동
+
+
+cd ~ 
+	자신의 홈 디렉터리(~)로 이동한다.
+
+절대경로 
+	: 경로최초의 시작점(루트)으로 경유한 경로를 전부 기입하는 방식를 사용하여 이동
+	 최상위 디렉터리 반드시 포함 된 경로
+	Ex) cd /Users/pro/workspace/study/study_linux_centos
+
+상대경로
+	: 현재 디렉토리(비교 대상)를 기준으로 작성된 경로
+	cd ./workspace/study
+
   ll
-  ls -algs
-  mkdir workspace
-  cd workspace/
-  ll
-  ls
-  ls -algs
-  cd
-  vi .bash_profile
-  source .bash_profile
-  ll
-  cd -
-  ll
-  mkdir study
+  mkdir study   : study 디렉터리에 python, js, html 등 공부한 것을 정리해 올려야지
   cd study
   ll
   ll
