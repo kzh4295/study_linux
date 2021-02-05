@@ -34,43 +34,24 @@ cd ~
 
   ll
   mkdir study   : study 디렉터리에 python, js, html 등 공부한 것을 정리해 올려야지
-  cd study
-  ll
-  ll
-  pwd
-  https://github.com/kzh4295/study_js.git
-  git clone https://github.com/kzh4295/study_js.git
-  ll
-  cd study_js/
-  ll
-  cat README.md
+  cd study	: 생성된 폴더로 이동
+  ll		: 내용물 확인
+  pwd		: 클론할 거니까, 현 위치를 잘 확인하자
+  git clone https://github.com/kzh4295/study_js.git	: github사이트의 저장된 서버리파지토리를 통째로 클론하므로, 번거로움을 줄일 수 있다
+  ll		: 내용 확인
+  cd study_js/		:해당 폴더에 서버리파지토리와 동일하게 클론되었는지 확인하기 위해 이동
+  ll		: 알맞게 클론 되었는지 내용 확인
+  cat README.md		: 파일의 내용을 화면에 출력
   echo "This is My Study Repository" >> README.md
-  git add --all
-  git commit -am "first"
-  git push
-  pwd
-  cd-
-  cd -
-  git clone https://github.com/kzh4295/study_mysql.git
-  ll
-  ll study_mysql/
-  pwd
-  cd study_mysql
-  git add js_mysql
-  git add --all
-  git commit
-  git commit -am "message"
-  git push
-  cd
-  vi .bash_profile
-  .
-  . .
-  . .bash_profile
-  ll
-  cd-
-  cd -
-  history
-  cat .bash_profile
-  exit
-  exit
-  history
+  git add --all		: working directory에서 로컬리파지토리로 들어갈 준비시킴
+  git commit -am "first"	: 로컬리파지토리로 커밋시킴 a는 add 안한 것도 시켜줄려고 써준거므로 생략 가능 " 커밋 메시지 "
+  git push		: 원격리파지토리로 push
+  
+  
+  
+  오늘의 깨달음
+  - 디렉터리 위치를 잘 보고 설치하자 (pwd, ll 수시로!)
+  - bash_profile은 환경설정과 관련되는구나
+  - 절대경로, 상대경로
+  - add(로컬 리파지토리에 들어갈 준비) >> commit(로컬리파지토리로 보냄) >> push(원격리파지토리로 보냄)
+  - git clone : 프로젝트에서 분업, 다른 컴퓨터에서 이용하기 위해 사용하는데 이 경우, pull을 먼저하고 상위폴더를 만든 후에 원격리파지토리를 통째로 가져와 번거로움을 줄이자
