@@ -1,0 +1,76 @@
+  source ~/.bash_profile
+  vi ~/.bash_profile
+  nvm ls
+  R/nvm.sh"  # This loads nvm
+  peuloui-MacBookPro:~ pro$
+  nvm install --lts
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  peuloui-MacBookPro:~ pro$
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh
+  cd begin-react
+  yarn start
+  yarn --version
+  npm install --global yarn
+  yarn --version
+  yarn start
+  /Users/pro/opt/anaconda3/bin/jupyter_mac.command ; exit;
+  cd begin-react
+  yarn start
+  ll
+  ls
+  ls -algs
+  mv .git backup_git
+  ll
+  ls -algs
+  mkdir workspace
+  cd workspace/
+  ll
+  ls
+  ls -algs
+  cd
+  vi .bash_profile
+  source .bash_profile
+  ll
+  cd -
+  ll
+  mkdir study
+  cd study
+  ll
+  ll
+  pwd
+  https://github.com/kzh4295/study_js.git
+  git clone https://github.com/kzh4295/study_js.git
+  ll
+  cd study_js/
+  ll
+  cat README.md
+  echo "This is My Study Repository" >> README.md
+  git add --all
+  git commit -am "first"
+  git push
+  pwd
+  cd-
+  cd -
+  git clone https://github.com/kzh4295/study_mysql.git
+  ll
+  ll study_mysql/
+  pwd
+  cd study_mysql
+  git add js_mysql
+  git add --all
+  git commit
+  git commit -am "message"
+  git push
+  cd
+  vi .bash_profile
+  .
+  . .
+  . .bash_profile
+  ll
+  cd-
+  cd -
+  history
+  cat .bash_profile
+  exit
+  exit
+  history
