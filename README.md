@@ -1,1 +1,1 @@
-# study_linux
+# study_linux_centos
