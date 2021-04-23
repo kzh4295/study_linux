@@ -1,3 +1,3 @@
-# study_linux_centosㅇ
-참고 ) 시니어코딩
+# study_linux_centos
+
 https://www.youtube.com/channel/UCei9IGoBLCRShZaBb_RN_IA
